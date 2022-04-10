@@ -3,7 +3,7 @@ entries:
   locust:
   - apiVersion: v1
     appVersion: 2.1.0
-    created: "2022-04-11T01:51:51.204683+09:00"
+    created: "2022-04-11T02:36:06.640573+09:00"
     description: 'A chart to install Locust, a scalable load testing tool written
       in Python.  This chart will setup everything required to run a full distributed
       locust environment with any amount of workers.  This chart will also create
@@ -17,7 +17,7 @@ entries:
       passing the names of those configmaps as values:  ```console helm install locust
       deliveryhero/locust \   --set loadtest.name=my-loadtest \   --set loadtest.locust_locustfile_configmap=my-loadtest-locustfile
       \   --set loadtest.locust_lib_configmap=my-loadtest-lib ``` '
-    digest: a30dd547de4ee4ac843e6bbcf962a460034acb363300e3f996ecd3d56c3c14a2
+    digest: fefaa3d40bb0c929152b02f9f2dbcb602c066ac43a0f7b60d65fa2ea44b57842
     home: https://github.com/locustio/locust
     icon: https://locust.io/static/img/logo.png
     maintainers:
@@ -27,4 +27,4 @@ entries:
     urls:
     - locust-0.23.0.tgz
     version: 0.23.0
-generated: "2022-04-11T01:51:51.203508+09:00"
+generated: "2022-04-11T02:36:06.637902+09:00"

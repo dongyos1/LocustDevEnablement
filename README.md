@@ -1,1 +1,1 @@
-# LocustDevEnablement
+# LocustDevEnablement Helm Chart Repository
